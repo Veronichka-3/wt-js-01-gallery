@@ -1,7 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 
 const galleryContainer = document.querySelector('.gallery');
-
 galleryContainer.innerHTML = createGalleryMarkup(galleryItems);
 
 const lightbox = new SimpleLightbox('.gallery a', {
