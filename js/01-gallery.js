@@ -7,7 +7,6 @@ const closeButton = document.querySelector('[data-action="close-lightbox"]');
 const overlay = document.querySelector('.lightbox__overlay');
 
 galleryContainer.innerHTML = createGalleryMarkup(galleryItems);
-
 galleryContainer.addEventListener('click', onGalleryItemClick);
 closeButton.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
